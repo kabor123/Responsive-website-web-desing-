@@ -1,0 +1,166 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f142d;
+}
+img
+{
+    position: fixed;
+    width: 37%;
+    left: 55%;
+        
+}
+h1
+{
+    position: absolute;
+    top: 23%;
+    width:33%;
+    font-size: 2.8em;
+    color: #007cb4;
+    font-family: Arial;
+    font-weight: 900;
+    left: 5%
+}
+span
+{
+    width: 20%;
+    color: #763ac6;
+}
+p
+{
+    position: absolute;
+    width: 25%;
+    top: 44%;
+    left: 5%;
+    font-family: Arial;
+    color: #b7c1c0;
+    
+}
+button
+{
+    position: absolute;
+    top: 63%;
+    padding: 14px 30px;
+    background: #007cb4;
+    color: white;
+    border: none;
+    left: 5%;
+    cursor: pointer;
+    
+}
+#button
+{
+    position: absolute;
+    top: 63%;
+    padding: 14px 30px;
+    background: #763ac6;
+    color: white;
+    border: none;
+    left: 19%;
+    cursor: pointer;
+    
+}
+.header ul
+{
+    position: absolute;
+    width: 80%;
+    top: 5%;
+    left: -2%;
+}
+
+ul li
+{
+        background: none;
+    list-style: none;
+    display: inline-flex;
+    color: white;
+    font-size: 1em;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 900;
+    margin-left: 5%;
+    font-family: Arial;
+    transition: 0.5s;
+    
+}
+ul li:hover
+{
+    color: #007cb4;
+    
+}
+#layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    visibility: hidden;
+}
+#layer.active
+{
+    visibility: visible;
+}
+
+ul li img
+{
+position: absolute;
+    width: 70;
+    top: 550;
+    left: -50;
+   
+}
+.social ul li 
+{
+   
+    position: relative;
+    width: 10%;
+    display: inline-flex;
+    cursor: pointer;
+    transition: 0.5s;
+}
+    
+h2
+{
+    position: absolute;
+    left: 65%;
+    top: 5%;
+    font-family: Arial;
+     color: #763ac6;
+    
+}
+@media (max-width: 460px)
+{
+    h1,p
+    {
+        visibility: hidden;
+    }
+    img
+    {
+        top: 15%;
+        left: 11%;
+        width: 70%;
+    }
+    h2
+    {
+        font-size: 1em;
+        width: 60%;
+        top: 16%;
+        left: 32%;
+    }
+    button
+    {
+        top: 80%;
+        left: 18%
+    }
+    #button
+    {
+        top: 80%;
+        left: 53%;
+    }
+    ul li img
+    {
+        top: 640;
+    }
+}
